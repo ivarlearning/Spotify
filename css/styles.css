@@ -1,0 +1,150 @@
+#title{
+  background-color: #F637EC;
+  color: white;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+.h2-description{
+  font-size: 1.5rem;
+}
+h3{
+  font-family: 'Poppins-500', sans-serif;
+  font-weight: bold;
+}
+p{
+  color: #7F8487;
+}
+.container-fluid{
+  padding: 7% 15% 2%;
+}
+/* Navigation Bar?# */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 90px;
+}
+.logo{
+  padding-right: 4%;
+}
+.navigation{
+  padding-right: 60px;
+}
+.nav-item{
+  padding:0 15px 0;
+}
+.nav-link{
+  font-weight: bold;
+  color: white;
+}
+.nav-link:hover{
+  color: #3CCF4E;
+}
+.or{
+  padding-top: 5px;
+}
+.title-images{
+  width: 60%;
+}
+.title-description{
+  width: 60%;
+}
+.sign-btn{
+  border-radius: 28px;
+  background-color: white;
+  margin: 5% 0;
+}
+
+/* Features */
+#features{
+  padding: 6% 7%;
+  text-align:center;
+}
+.why{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  padding-bottom:6%;
+}
+.features-icon{
+  color:#AB46D2;
+  padding: 1rem;
+}
+#testimonials{
+  padding: 12% 15%;
+  text-align: center;
+  background-color: #A149FA;
+  color:white;
+}
+.test{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.card-header{
+}
+.card-body{
+  height: 360px;
+}
+.pc{
+  padding:3% 2%;
+}
+
+/* Pricing buttton Section */
+.pbtn{
+  width: 100%;
+  border-radius: 28px;
+}
+.btn-ind{
+  margin-top: 120px;
+}
+.btn-duo{
+  margin-top: 95px;
+}
+.btn-std{
+  margin-top: 65px;
+}
+.pricing-plan-features{
+  list-style: none;
+  text-align: left;
+}
+.pricing-plan-features::before{
+  content:"\2713";
+
+}
+@media (max-width:1028px) {
+  .or{
+  display: none;
+}
+.title-images{
+  display: none;
+}
+.title-description{
+  width: 120%;
+}
+.container-fluid{
+  padding: 15% 5%;
+}
+h1{
+  font-size: 4rem;
+  width: 100%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.logo{
+  padding-right: 4%;
+}
